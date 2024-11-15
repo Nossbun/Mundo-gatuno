@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(26, 23, 23);
+    color: rgb(85, 200, 245);
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+a{
+    color: rgb(175, 175, 175);
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 40px;
+    margin-right: 10px;
+    }
+
+    a:hover{
+        background: rgb(68, 154, 204);
+        text-shadow: 0 0 2px #000;
+        }
+
+ 
+nav{
+    display: flex;
+}
+
+/******/
+
+button{
+    border: 0;
+    background-image: linear-gradient(150deg, #9500, #09f, #00DDFF);
+    border-radius: 8px;
+    color: #fff;
+    display: inline-flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+ 
+ }
+ 
+ button span{
+    background-color: #111;
+    padding: 16px 32px;
+    border-radius: 6px;
+    transition: .3s;
+ 
+ }
+ 
+ button:hover span{
+    background: none;
+ }
+ 
+ button:active{
+    transform: scale(0,9);
+ }
+
+ /******/
+
+@font-face {
+    font-family: FP;
+    src: url("Namaku.ttf");
+    
+}
+
+h1{
+   font-family: FP;
+   font-weight: bold;
+   font-style: bold;
+}
